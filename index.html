@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BRAND NAME | Consulting</title>
+<meta name="description" content="Independent consulting in AI, machine learning, and software engineering.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#ffffff; --soft:#f6f7f9; --line:#e5e7eb; --text:#1f2937; --muted:#6b7280; --accent:#2f5d8a; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:Inter,system-ui,sans-serif; background:var(--bg); color:var(--text); line-height:1.65; }
+  a { color:inherit; }
+  .wrap { max-width:960px; margin:0 auto; padding:0 24px; }
+  nav { display:flex; justify-content:flex-end; align-items:center; padding:24px 0; }
+  .logo { font-weight:600; font-size:18px; text-decoration:none; }
+  nav .links a { color:var(--muted); text-decoration:none; margin-left:24px; font-size:15px; }
+  nav .links a:hover { color:var(--text); }
+  .hero { padding:80px 0 72px; }
+  h1 { font-size:clamp(32px,5vw,48px); line-height:1.15; letter-spacing:-0.02em; font-weight:600; max-width:720px; margin-bottom:20px; }
+  .lead { font-size:19px; color:var(--muted); max-width:600px; }
+  .btn { display:inline-block; margin-top:32px; background:var(--accent); color:#fff; text-decoration:none; padding:12px 24px; border-radius:6px; font-weight:500; }
+  section { padding:64px 0; border-top:1px solid var(--line); }
+  h2 { font-size:28px; font-weight:600; letter-spacing:-0.015em; margin-bottom:10px; }
+  .sub { color:var(--muted); max-width:600px; margin-bottom:36px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:20px; }
+  .card { background:var(--soft); border:1px solid var(--line); border-radius:8px; padding:24px; }
+  .card h3 { font-size:18px; font-weight:600; margin-bottom:8px; }
+  .card p { color:var(--muted); font-size:15px; }
+  .about p { color:var(--muted); max-width:680px; margin-bottom:14px; }
+  .contact { text-align:center; }
+  .contact .sub { margin:0 auto 4px; }
+  footer { padding:28px 0; color:var(--muted); font-size:14px; border-top:1px solid var(--line); }
+  @media (max-width:640px) { nav .links { display:none; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav>
+    <div class="links">
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <h1>Practical consulting for AI, data, and software projects.</h1>
+    <p class="lead">I help teams plan, build, and improve technology that works in the real world, from early strategy through delivery.</p>
+    <a class="btn" href="mailto:hello@yourdomain.com">Get in touch</a>
+  </header>
+
+  <section id="services">
+    <h2>Services</h2>
+    <p class="sub">Flexible engagements, from a single advisory session to hands-on project work.</p>
+    <div class="grid">
+      <div class="card">
+        <h3>Strategy &amp; Advisory</h3>
+        <p>Help deciding where AI and data can add value, what to build, and how to get there.</p>
+      </div>
+      <div class="card">
+        <h3>Architecture &amp; Review</h3>
+        <p>Independent review of system designs, technical plans, and existing implementations.</p>
+      </div>
+      <div class="card">
+        <h3>Hands-on Engineering</h3>
+        <p>Prototyping and building machine learning and software solutions alongside your team.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About</h2>
+    <p>I'm Louis Gutierrez, PhD, a machine learning and software engineering leader with experience across startups and large organizations.</p>
+    <p>I focus on clear thinking, honest advice, and solutions that hold up after launch.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Let's talk</h2>
+    <p class="sub">Tell me a bit about your project and I'll get back to you.</p>
+    <a class="btn" href="mailto:hello@yourdomain.com">hello@yourdomain.com</a>
+  </section>
+
+  <footer>&copy; 2026 BRAND NAME</footer>
+</div>
+</body>
+</html>
